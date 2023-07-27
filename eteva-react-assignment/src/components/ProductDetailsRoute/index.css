@@ -1,0 +1,128 @@
+.product-details-success-view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@media screen and(min-width:768px){
+    .product-details-success-view{
+        flex-direction: column;
+    }
+}
+
+.product-image{
+    height: 30px;
+    width: 260px;
+    margin:10px;
+}
+@media screen and(min-width:768px){
+    .product-image{
+        width:45%;
+        margin-right: 15px;
+    }
+}
+.product-details-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.product-name{
+    color:grey;
+		font-family: 'Roboto';
+		font-size: 28px;
+		font-weight: 500;
+}
+.price{
+	color:black;
+	font-weight: 600;
+	font-size: 30px;
+}
+.rating-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-color: blue;
+	color:white;
+	border-radius: 15px;
+	height:40px;
+	width:55px;
+	padding: 10px;
+}
+.rating{
+	color:white;
+	font-size: 22px;
+	font-weight: bold;
+}
+.star{
+	height:22px;
+}
+.reviews-count{
+	color:grey;
+	font-weight: 300;
+	font-family: "Roboto";
+	font-size: 18px;
+}
+.description{
+	color:lightslategray;
+	font-size: 18px;
+	font-family: 'Roboto';
+}
+.label-value-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.label{
+	color:black;
+	font-size: 24px;
+	font-family: "Roboto";
+	font-weight: bold;
+}
+.value{
+	color:grey;
+	font-size: 20px;
+	font-family: "Roboto";
+}
+.horizantal-line{
+	border:1px solid grey;
+}
+.quantity-container{
+	display: flex;
+	align-items: center;	
+}
+.quantity-controller-button{
+	background-color: transparent;
+	height:24px;
+	width:24px;
+	margin-right: 20px;
+	cursor:pointer;
+	outline:none;
+	border:none;
+}
+.quantity-controller-icon{
+	width:100%;
+}
+.quantity{
+	color:darkslategray;
+	font-size: 24px;
+	font-weight: 400;
+}
+.add-to-cart-btn{
+	background-color: blue;
+	color:white;
+	border-radius: 15px;
+	height:40px;
+	width:55px;
+	padding: 10px;
+}
+
+
+
+
+

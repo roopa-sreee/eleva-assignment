@@ -1,0 +1,26 @@
+.navbar{
+    background-color:rgb(237, 173, 173);
+    height:65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.website-logo{
+    font-size: 36px;
+    font-weight: 600;
+    color:rgb(89, 236, 109);
+    font-family: "Roboto";
+}
+.sub-script{
+    color:rgb(44, 43, 43);
+    font-size: 16px;
+    font-weight: 400;
+}
+.products-link{
+    color:black;
+    font-weight: 400;
+    font-family: 'Roboto';
+    font-size: 24px;
+}
